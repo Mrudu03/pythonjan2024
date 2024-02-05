@@ -32,8 +32,7 @@ print(result)
 expression = 120 / 3 / 4
 print(result)
 
-expression = 120 / 4 / 3
-print(result)
+
 
 expression = 120 / 3 / 4 / 10
 print(result)
