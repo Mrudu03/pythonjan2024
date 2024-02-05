@@ -49,3 +49,12 @@ print("num1 =", num1, "type(num1) =", type(num1))
 num1 = True
 print("num1 =", num1, "type(num1) =", type(num1))
 
+
+num1 = False
+print("num1 =", num1, "type(num1) =", type(num1))
+
+
+num1 = "False"
+print("num1 =", num1, "type(num1) =", type(num1))
+
+# NOTE: Strings need to be declared in quotes
