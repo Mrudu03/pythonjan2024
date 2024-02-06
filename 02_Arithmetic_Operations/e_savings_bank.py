@@ -31,5 +31,9 @@ house_rent = 1500
 balance -= house_rent
 
 print("Final balance is:", balance)
+print("house_rent:", house_rent)
+print("online purchases:", online_perchases)
+print("salary credited:", salary_credited)
+print("Initial deposit:", initial_deposit)
 
 
