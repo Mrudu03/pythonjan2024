@@ -79,6 +79,8 @@ print("%f" % 12.34)  # 12.340000
 print("%F" % 12.34)  # 12.340000
 print("%F" % 12.34223123123123)  # 12.342231
 
+#alternativly we can use %g it rounds off the values
+
 print()
 print("%g" % 12.34)  # 12.34
 print("%G" % 12.34)  # 12.34
