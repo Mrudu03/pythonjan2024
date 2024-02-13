@@ -95,6 +95,19 @@ while True:  # do-while loop
 #     print("It will never reach here, as loop breaks to exit")
 
 
+# Assigning points based on the number of attempts
+if attempt >= 1 and attempt <= 3:
+    points = 100
+elif attempt >= 4 and attempt <= 9:
+    points = 60
+elif attempt >= 10 and attempt <= 16:
+    points = 20
+elif attempt >= 17 and attempt <= 25:
+    points = 5
+else:
+    points = 0
+print()
+print(f"Attempts: {attempt}, Points: {points}")
 """
     Assignment
     ------------------------
