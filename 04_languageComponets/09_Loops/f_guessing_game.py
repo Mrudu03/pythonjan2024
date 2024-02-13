@@ -108,6 +108,8 @@ else:
     points = 0
 print()
 print(f"Attempts: {attempt}, Points: {points}")
+
+
 """
     Assignment
     ------------------------
