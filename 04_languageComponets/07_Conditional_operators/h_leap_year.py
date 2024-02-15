@@ -11,3 +11,13 @@ Algorithms
 
     Compute the leap years in this century
 """
+
+y = int(input("please enter a year "))
+if y % 4 != 0:
+    print(f"This is not leap year: {y}")
+elif y % 100 != 0:
+    print(f"This is a leap year {y}")
+elif y % 400 !=0:
+    print(f"This is not a leap year: {y}")
+else:
+    print(f"This is a leap year {y}")
