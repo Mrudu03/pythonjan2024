@@ -61,16 +61,4 @@ Assignment: Progress bar implementation
     [********* ]  90
     [**********] 100
 """
-data_set = range(1, 110, 10)
-data_set_length = len(data_set)
-
-for loop_index, _ in enumerate(data_set):
-    percent_completed = (loop_index / (data_set_length - 1)) * 100
-    percent_completed = round(percent_completed, 2)
-
-    # Calculate the number of asterisks to represent progress
-    num_asterisks = int(percent_completed / 10)
-
-    # Print the progress bar with the percentage
-    progress_bar = f"[{'*' * num_asterisks}{' ' * (10 - num_asterisks)}] {percent_completed:3}%"
-    print(f"{progress_bar}", end="")
+#Assignment is in assignment folder

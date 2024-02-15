@@ -17,6 +17,6 @@ for loop_index, _ in enumerate(data_set):
 
     # Print the progress bar with the percentage
     progress_bar = f"[{'*' * num_asterisks}{' ' * (10 - num_asterisks)}] {percent_completed}"
-    print(f"{progress_bar}", end="\n")
+    print(f"{progress_bar}", end=" ")
 
 
