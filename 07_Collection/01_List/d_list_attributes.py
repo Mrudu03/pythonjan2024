@@ -22,7 +22,18 @@ print("mylist2 + mylist1", mylist2 + mylist1)
 
 
 # Assignment: List repetition is commutative
+print("To check if the list repitative is commutative")
+mulList = mylist1 * 2
+print("Multiplied list       = ", mulList)
+print("type(mulList) = ", type(mulList))
+print()
 
+print("commutative prop :", mylist1 * 2 == 2 * mylist1)
+print("mylist1 + mylist2", mylist1 * 2)
+print("mylist2 + mylist1", 2 * mylist1)
+
+
+print()
 # print(dir(mylist1))
 for each_attribute in dir(mylist1):
     if not each_attribute.startswith('__'):

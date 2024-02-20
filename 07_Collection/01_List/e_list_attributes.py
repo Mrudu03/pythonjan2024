@@ -86,6 +86,7 @@ mylist = ["a", 11, 22, "god", "b", (12, [323, 3])]
 print(f"{mylist.pop() =}")
 print(f"{mylist       =}\n")
 
+
 # To remove a specific element
 print(f"{mylist.remove(11) =}")  # None
 print(f"{mylist       =}\n")  # ['a', 22,  'god', 'b']
