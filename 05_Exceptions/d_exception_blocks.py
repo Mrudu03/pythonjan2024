@@ -27,17 +27,17 @@ except:
     pass
 
 try:
-    10/20
+    print(10/20)
 except:
     pass
 
-# try:
-#     num1 = input("Enter a number:")
-#     print(2.5 * num1)
-# except Exception as ex:
-#     print(ex)
-#     print(str(ex))
-#     print(repr(ex))
+#try:
+#    num1 = input("Enter a number:")
+#    print(2.5 * num1)
+#except Exception as ex:
+#   print(ex)
+#   print(str(ex))
+#   print(repr(ex))
 
 
 
