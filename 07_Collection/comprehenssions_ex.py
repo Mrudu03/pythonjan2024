@@ -139,8 +139,7 @@ original_text = "Attack is planned to happen on next Sunday"
 original_text = original_text.lower()
 print(f"Original text: {original_text}")
 shift_value = 3
-encrypted_text = [chr((ord(char) - ord('a') + shift_value) % 26 + ord('a')) if char.isalpha() else char for char in original_text]
+encrypted_text = [chr((ord(char) - ord('a') + shift_value) % 26  + ord('a')) if char.isalpha() else char for char in original_text]
 encrypted_text = "".join(encrypted_text)
-
 print(f"Original text: {original_text}")
 print(f"Encrypted text: {encrypted_text}")
