@@ -22,8 +22,8 @@ print(f"isinstance(10.3, float) :{isinstance(10.3, float)}")
 #write a function to mimick the sum() function.
   #  Caution: don't create function with same name
 
-def check_sum(i, start=0):
-    result = start
+def check_sum(i):
+    result = 0
     for element in i:
         result += element
     return result
@@ -38,13 +38,13 @@ print(f"result: {result}")
   #  - output: (1, 2, 3, 4, 5, 6)
 
 def tuple_elemnts(data):
-    flattened_data = []
+    arr_data = []
     for item in data:
         if isinstance(item, (list, tuple)):
-            flattened_data.extend(tuple_elemnts(item))
+            arr_data.extend(tuple_elemnts(item))
         else:
-            flattened_data.append(item)
-    return flattened_data
+            arr_data.append(item)
+    return arr_data
 
 
 input_data = ((1, 2), 3, 4, [5, 6])
