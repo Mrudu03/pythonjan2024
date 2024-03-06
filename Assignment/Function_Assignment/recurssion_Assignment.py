@@ -31,6 +31,6 @@ def fibonacci(n):
         fib_series = fibonacci(n - 1)
         return fib_series + [fib_series[-2] + fib_series[-1]]
 
-fibonacci_count = 8
+fibonacci_count = 10
 fib_series = fibonacci(fibonacci_count)
 print(f"Fibonacci Series (up to {fibonacci_count} terms): {fib_series}")
